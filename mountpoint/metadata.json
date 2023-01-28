@@ -1,0 +1,10 @@
+{
+  "name": "hubertqc-mountpoint",
+  "version": "1.0.0",
+  "author": "Hubert Quarantel-Colombani <hubert@quarantel.name>",
+  "summary": "Creates Puppet custom type to manage FS mountpoint",
+  "license": "GPL-3.0",
+  "source": "",
+  "project_page": "https://github.com/hubertqc/puppet-mountpoint",
+  "issues_url": null
+}
