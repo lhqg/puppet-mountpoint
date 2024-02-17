@@ -1,16 +1,14 @@
 Puppet::Type.newtype(:mountpoint) do
+  ensurable
 
-    ensurable
+  newparam(:name) do
+    desc 'The name of the mount point for a filesystem.'
+    isnamevar
 
-    newparam(:name) do
-        desc "The name of the mount point for a filesystem."
-        isnamevar
-
-        validate do |value|
-            unless Pathname.new(value).absolute?
-                raise ArgumentError , "#{value} is not valid mount point."
-            end
-        end
+    validate do |value|
+      unless Pathname.new(value).absolute?
+        raise ArgumentError, "#{value} is not valid mount point."
+      end
     end
+  end
 end
-
