@@ -7,4 +7,7 @@
 ![GitHub Downloads](https://img.shields.io/github/downloads/lhqg/puppet-mountpoint/total)
 
 # puppet-mountpoint
+
 Puppet custom-type to manage filesystems mount point
+
+Maintained and provided as a community contribution by [LHQG](https://www.lhqg.fr/).
